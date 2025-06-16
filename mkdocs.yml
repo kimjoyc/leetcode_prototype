@@ -1,0 +1,19 @@
+site_name:  LeetCode Tutorials
+
+theme:
+  name: material
+  features:
+    - navigation.sections       # Enables sidebar navigation
+    - navigation.expand         # Expands all nav sections by default
+    - navigation.footer         # Enables Prev/Next buttons on pages
+
+extra:
+  generator: false              # Removes "Made with Material for MkDocs" footer
+
+nav:
+  - Home: inleetcode_curriculumdex.md
+  - Arrays:
+      - Conceptual Guide: array/arrays_conceptual_guide.md
+      # - Sliding Window:
+      #     - Overview: array/slidingwindow/index.md
+      #     - Max Sum Subarray: array/slidingwindow/p1.md
